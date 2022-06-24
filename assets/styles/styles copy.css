@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*font-family: 'Montserrat', sans-serif; (titulos)
+font-family: 'Montserrat', sans-serif; (textos)
+*/
+
+
+
+/* 
+header nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.saludables__border{
+    border-right: solid;
+}
+
+
+nav ul li{
+    border-left: solid #000;
+    display: inline-block;
+    padding: 20px;
+    margin: 0px;
+}
+
+
+header nav{
+    background-color: #402C21;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+footer ul li a{
+    text-decoration: none;
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+body{
+    background-color: grey;
+}
+
+.relleno__img{
+    width: 350px;    
+}
+
+.relleno{
+    background-color: rgba(0, 0, 0, 0.267);
+    margin: 40px 80px;
+    text-align: center;
+}
+
+
+footer ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: large;
+}
+
+
+footer ul li{
+    border-right: solid #000;
+    display: inline-block;
+    padding: 20px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+footer ul{
+    background-color: #402C21;
+    padding: 0px;
+    width: 100%;
+    height: 30%;
+}
+
+
+main{
+    margin-top: 7%;
+}
+
+
+
+
+
+.opciones__menu{
+    margin: 20px;
+    padding: 15px;
+    border: solid;
+    height: 250px;
+    width: 550px;
+    text-align: start;
+}
+
+
+.foto__menu{
+    height: 150px;
+    width: 150px;
+}
+
+
+
+
+.nosotros__video{
+    width: 550px;
+    height: 550px;
+}
+
+.section__nosotros{
+    text-align: center;
+}
+
+
+
+
+
+.section__micarrito{
+    border: #000 solid;
+    width: 33.3%;
+    height: 500px;
+    background-color: rgb(187, 187, 187);
+}
+
+.section__pago{
+    border: #000 solid;
+    width: 33.3%;
+    height: 500px;
+    background-color: rgb(187, 187, 187);
+}
+
+.section__resumen{
+    border: #000 solid;
+    width: 33.3%;
+    height: 500px;
+    background-color: rgb(187, 187, 187);
+}
+
+
+
+
+
+.sumate__contacto{
+    border: rgba(0, 0, 0, 0.274) solid;
+    margin: 20px;
+    padding: 5px;
+}
+
+.table__horarios{
+    border: rgba(0, 0, 0, 0.274) solid;
+    margin: 20px;
+    padding: 5px;
+}
+
+.contacto__contacto{
+    border: rgba(0, 0, 0, 0.274) solid;
+    margin: 20px;
+    padding: 5px;
+}
+
+
+.padre__home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+}  */
