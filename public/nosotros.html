@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>TuBurguer</title>
 </head>
 <body class="grid__body__index">
@@ -21,11 +22,11 @@
             <div data-aos="fade-right" class="dropdown__header">
                 <span><img class="menu__logo__header" src="../assets/images/LogoMenuHeader.png" alt=""></span>
                 <ul>
-                    <li><a class="texto__header" href="../index.html"><b>Home</b></a></li>
-                    <li><a class="texto__header" href="./menu.html">Menu</a></li>
-                    <li><a class="texto__header" href="./carrito.html">Carrito</a></li>
-                    <li><a class="texto__header" href="./nosotros.html">Nosotros</a></li>
-                    <li><a class="texto__header" href="./saludables.html">Saludables?</a></li>
+                    <li><a class="texto__header m-3" href="../index.html">Home</a></li>
+                    <li><a class="texto__header m-3" href="./menu.html">Menu</a></li>
+                    <li><a class="texto__header m-3" href="./carrito.html">Carrito</a></li>
+                    <li><a class="texto__header m-3" href="./nosotros.html"><b>Nosotros</b></a></li>
+                    <li><a class="texto__header m-3" href="./saludables.html">Saludables?</a></li>
                 </ul>
             </div>
             <div data-aos="fade-down" class="contenedor__logo__medio__header">
@@ -33,12 +34,10 @@
             </div>
         </nav>
     </header>
-    <main class="grid__main__nosotros">
+    <main class="grid__main__nosotros col-12">
         <section class="section__nosotros">
-            <h1>"Nombre de la empresa"</h1>
-            <p>Comentarios sobre la historia y la trayectoria del local/ emprendimiento.
-            Lörem ipsum deciskapet er som krovekana hortad. Nibosam vuvuzela isat. Vare multir pulingar gassade. 
-            Antilalingar expresskidnappning ven vev. Viralgranska trin. Egock tid om än nesa lavis: aligt oskade. 
+            <h1 class="h1 mt-5" data-aos="fade-up">Tu Burguer</h1>
+            <p class="h4 p-5">Somos una hamburgueseria de barrio con mas de <b>763 años de carrera</b> en el mundo de la gastronomia, nuestro primer local abrio en Mendoza en el ano <b>1,259 D.C</b>, para que te des una idea en ese momento justo pasaba la batalla de Pelagonia, en la cual se enfrentó al Imperio de Nicea por un lado y al Despotado de Epiro, Sicilia y el Principado de Acaya. Actualmente nuestras hamburguesas son de nivel mundial aunque el <b>toque de barrio sigue en pie</b>, tenemos sucursales desde dinamarca hasta tierra del fuego y pensamos abrir un nuevo local en la Antartida, pero esta un poco dificil, ya que solo va un carguero cada 6 meses aproximadamente y algun que otro avion.
             </p>
             <div class="video__main__nosotros">
             <video src="../assets/images/DemoVideoNosotros.mp4" controls class="nosotros__video">video demo</video>
@@ -61,5 +60,6 @@
     <script>
         AOS.init();
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
