@@ -14,19 +14,19 @@ font-family: 'Montserrat', sans-serif; (textos)
 
 body{
     background: 
-    linear-gradient(135deg, rgb(41, 41, 41) 25%, transparent 25%) -50px 0,
-    linear-gradient(225deg, rgb(37, 37, 37) 25%, transparent 25%) -50px 0,
+    linear-gradient(135deg, rgba(0, 0, 0, 0.795) 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, rgba(0, 0, 0, 0.651) 25%, transparent 25%) -50px 0,
     linear-gradient(315deg, black 25%, transparent 25%),
-    linear-gradient(45deg, rgb(68, 68, 68) 39%, transparent 25%);	
+    linear-gradient(45deg, rgba(0, 0, 0, 0.884) 39%, transparent 25%);	
     background-size: 2em 2em;
-    background-color: #232323;
+    background-color: #000000;
 }
 
 
 
 
 .grid__body__index{
-    background-color: grey;
+    background-color: rgb(70, 70, 70);
 }
 
 
@@ -62,13 +62,14 @@ body{
     padding: 4%;
 }
 .dropdown__header:hover ul,.dropdown__header ul .show{
-    max-height: 400px;
+    max-height: 450px;
     padding: 3%;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
 }
 .texto__header{
     text-decoration: none;
+    z-index: 100;
 }
 .menu__logo__header{
     height: 25px;
@@ -81,25 +82,12 @@ body{
 
 
 
-
+/* 
 .grid__main__index{
     border: 0px solid black;
 }
-    .padre__home{
-        display: grid;
-        grid-template-columns: auto auto;
-        background-color: rgb(141, 141, 141);
-        justify-items: center;
-        margin: 5%;
-        border-radius: 15px;
-        padding: 7%;
-        grid-column-gap: 15px;
-        border: black solid;
-    }
-    .relleno__img__index{
-        width: 100%;
-        border-radius: 15px;    
-    }
+
+    
     .tablero__main__index{
         margin: 3%;
         font-size: larger;
@@ -108,6 +96,28 @@ body{
         font-size: large;
         margin-top: 1%;
     }
+
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-items: center;
+        margin: 5%;
+        border-radius: 15px;
+        padding: 7%;
+        grid-column-gap: 15px;
+        border: black solid;
+     */
+        .relleno__img__index{
+        width: 100%;
+        border-radius: 15px;    
+    }
+    .padre__home{
+        background-color: rgb(141, 141, 141);
+        border-radius: 15px;
+    }
+    .tablero__main__index{
+        font-size: larger;
+    }
+
 
 
 
