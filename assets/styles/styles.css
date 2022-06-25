@@ -26,8 +26,6 @@ body{
 
 
 .grid__body__index{
-    display: grid;
-    grid-template-rows: auto auto auto;
     background-color: grey;
 }
 
@@ -35,33 +33,51 @@ body{
 
 
 .grid__header{
-    display: fixed;
+    background-color: #402C21;
+    border-bottom: solid white;
+    padding: 15px;
 }
-
-    header nav ul li a{
-        text-decoration: none;
-        color: aliceblue;
-        font-size: large;
-        font-family: 'Montserrat', sans-serif;
-        transition-duration: 1.5s;
-    }
-    nav ul li a:hover{
-        font-size: 130%;
-    }
-    nav ul li{
-        border-left: solid #000;
-        display: inline-block;
-        padding: 20px;
-        margin: 0px;
-    }
-    header nav{
-        background-color: #402C21;
-        text-align: center;
-        width: 100%;
-    }
-    .saludables__border{
-        border-right: solid;
-    }
+.grid__header__logos{
+    display: grid;
+    grid-template-columns: 46% 55%;
+}
+.dropdown__header{
+    position: relative;
+    width: min-content;
+}
+.contenedor__logo__medio__header{
+    grid-column: 2/3;
+}
+.dropdown__header ul{
+    position: absolute;
+    max-height: 0px;
+    overflow: hidden;
+    transition-duration: 0.7s;
+    background-color: #402C21;
+}
+.dropdown__header ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: large;
+    padding: 4%;
+}
+.dropdown__header:hover ul,.dropdown__header ul .show{
+    max-height: 400px;
+    padding: 3%;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.texto__header{
+    text-decoration: none;
+}
+.menu__logo__header{
+    height: 25px;
+}
+.logo__medio__header{
+    position: absolute;
+    height: 60px;
+    top: -15px;
+}
 
 
 
@@ -248,22 +264,22 @@ body{
 }
     footer ul li a{
         text-decoration: none;
-        color: aliceblue;
+        color: white;
         font-size: large;
-        text-decoration: none;
         transition-duration: 1.5s;
     }
     footer ul li a:hover{
         font-size: 120%;
     }
     footer ul li{
-        border-right: solid #000;
+        border-right: 0px solid #000;
         display: inline-block;
         padding: 20px;
         margin: 0px;
         font-family: 'Montserrat', sans-serif;
     }
     footer ul{
+        border-top: solid white;
         background-color: #402C21;
     }
     .footer__index{

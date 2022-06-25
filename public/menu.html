@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/styles/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap" rel="stylesheet">
@@ -12,18 +12,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/styles/styles.css">
     <title>TuBurguer</title>
 </head>
 <body class="grid__body__index">
     <header class="grid__header">
-        <nav>
-            <ul class="">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./menu.html"><b>Menu</b></a></li>
-                <li><a href="./carrito.html">Carrito</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li class="saludables__border"><a href="./saludables.html">Saludables?</a></li>
-            </ul>
+        <nav class="grid__header__logos">
+            <div data-aos="fade-right" class="dropdown__header">
+                <span><img class="menu__logo__header" src="../assets/images/LogoMenuHeader.png" alt=""></span>
+                <ul>
+                    <li><a class="texto__header" href="../index.html"><b>Home</b></a></li>
+                    <li><a class="texto__header" href="./menu.html">Menu</a></li>
+                    <li><a class="texto__header" href="./carrito.html">Carrito</a></li>
+                    <li><a class="texto__header" href="./nosotros.html">Nosotros</a></li>
+                    <li><a class="texto__header" href="./saludables.html">Saludables?</a></li>
+                </ul>
+            </div>
+            <div data-aos="fade-down" class="contenedor__logo__medio__header">
+                <img class="logo__medio__header" src="../assets/images/LogoMedioHeader.png" alt="">
+            </div>
         </nav>
     </header>
     <main class=".grid__main__menu">
@@ -98,5 +105,14 @@
             </li>
         </ul>
     </footer>
+    <script>
+        document.querySelector(".dropdown__header").addEventListener("click",function(){
+            document.querySelector(".dropdown__header ul").classList.toggle("show");
+        })
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
