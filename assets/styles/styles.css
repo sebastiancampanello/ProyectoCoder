@@ -21,10 +21,6 @@ body{
     background-size: 2em 2em;
     background-color: #000000;
 }
-
-
-
-
 .grid__body__index{
     background-color: rgb(70, 70, 70);
 }
@@ -209,30 +205,35 @@ body{
 
 .grid__main__contacto{
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 50% 50%;
     background-color: rgb(141, 141, 141);
     border-radius: 15px;
-    margin: 5%;
-    padding: 2%;
     border: solid;
+    margin: 5%;
 }
+    .titulo__grid__contacto{
+        grid-column: 1/3;
+    }
     .sumate__contacto{
         border: solid black;
         margin: 3%;
         padding: 5px;
         border-radius: 15px;
+        grid-column: 1/2;
     }
     .table__horarios{
         border: solid black;
         margin: 3%;
         padding: 5px;
         border-radius: 15px;
+        grid-column: 2/3;
     }
     .contacto__contacto{
         border: solid black;
         margin: 3%;
         padding: 5px;
         border-radius: 15px;
+        grid-column: 1/3;
     }
     .mapa__contacto{
         width: 100%;
@@ -241,10 +242,12 @@ body{
     .mapa__main__contacto{
         border-radius: 15px;
         margin: 5%;
+        grid-column: 1/3;
     }
     .form__casilla{
         width: 100%;
     }
+
 
 
 
@@ -298,6 +301,7 @@ body{
 
 
 
+
 @media (max-width:630px){
     .padre__home{
         display: grid;
@@ -320,7 +324,25 @@ body{
     }
     .grid__main__carrito{
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 100%;
         padding: 15px;
+    }
+    .grid__main__contacto{
+        grid-template-columns: 100%;
+    }
+    .titulo__grid__contacto{
+        grid-column: 1/3;
+    }
+    .sumate__contacto{
+        grid-column: 1/3;
+    }
+    .table__horarios{
+        grid-column: 1/3;
+    }
+    .contacto__contacto{
+        grid-column: 1/3;
+    }
+    .mapa__main__contacto{
+        grid-column: 1/3;
     }
 }
