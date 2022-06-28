@@ -35,26 +35,25 @@
             </div>
         </nav>
     </header>
-    <main class="grid__main__contacto">
-        <h1><b>Comunicate con nosotros!</b></h1>
-        <section class="sumate__contacto">
+    <main class="grid__main__contacto row m-5">
+        <h1 class="m-4"><b>Comunicate con nosotros!</b></h1>
+        <section class="sumate__contacto col-5">
             <h2><b>Sumate a nuestro equipo de trabajo!</b></h2>
             <form class="cuestionario__contactanos">
                 <label for="nombre__apellido">Nombre y apellido:</label>
-                <input class="rounded-3 bg-secondary bg-gradient" type="text" for="nombre__apellido">
+                <input class="form__casilla rounded-3 bg-secondary bg-gradient" type="text" for="nombre__apellido">
                 <label for="numero">Numero de contacto:</label>
-                <input class="rounded-3 bg-secondary bg-gradient" type="text" for="numero">
+                <input class="form__casilla rounded-3 bg-secondary bg-gradient" type="text" for="numero">
                 <label for="edad">Edad:</label>
-                <input class="rounded-3 bg-secondary bg-gradient" type="number">
+                <input class="form__casilla rounded-3 bg-secondary bg-gradient" type="number">
                 <label for="puesto">Puesto a cubrir:</label>
-                <input class="rounded-3 bg-secondary bg-gradient" type="search" for="puesto">
-                <input class="rounded-2 bg-warning bg-gradient" type="submit">
+                <input class="form__casilla rounded-3 bg-secondary bg-gradient" type="search" for="puesto">
+                <input class="mt-2 rounded-2 bg-warning bg-gradient" type="submit">
             </form>
         </section>
-        <section class="table__horarios">
-            
-            <div>
-                <h2><b>Horarios de atencion</b></h2>
+        <section class="table__horarios col-5">
+            <div class="d-flex flex-column">
+                <h2><b>Horarios de atención:</b></h2>
                 <table>
                     <tr>
                         <th>Lun:</th>
@@ -87,12 +86,12 @@
                 </table>
             </div>
         </section>
-        <section class="contacto__contacto">
+        <section class="contacto__contacto col-11">
             <h2><b>Contacto</b></h2>
             <div><b>Nuestro Whatsapp:</b> +54-261-3346059</div>
             <div><b>Nuestro email:</b> campanello76@gmail.com</div>
         </section>
-        <div class="mapa__main__contacto">
+        <div class="mapa__main__contacto col-11">
         <iframe class="mapa__contacto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10452.509210286418!2d-58.463978122364345!3d-34.56131520135189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d4a2de406b%3A0xb12ac80688f84714!2sMcDonald&#39;s!5e0!3m2!1ses!2sar!4v1653420681013!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </main>
@@ -111,10 +110,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
     <script>
-      var wa_btnSetting = {"btnColor":"#ffffff","ctaText":"","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"542613346059","welcomeMessage":"Hola Seba! Como andas?","zIndex":999999,"btnColorScheme":"dark"};
-      window.onload = () => {
+        var wa_btnSetting = {"btnColor":"#ffffff","ctaText":"","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"542613346059","welcomeMessage":"Hola Seba! Como andas?","zIndex":999999,"btnColorScheme":"dark"};
+        window.onload = () => {
         _waEmbed(wa_btnSetting);
-      };
+        };
     </script>
 </body>
 </html>
