@@ -138,29 +138,34 @@ body{
 
 .grid__main__carrito{
     display: grid;
-    grid-template-columns: 30% 34% 34%;
+    grid-template-columns: 33% 33% 33%;
     grid-gap: 5px;
-    margin-top: 3%;
+    margin: 3%;
+
 }
     .section__micarrito{
         background-color: rgb(141, 141, 141);
         border: white solid ;
         border-radius: 15px;
         padding: 3%;
-
+        margin: 0% 3%;
+        margin-bottom: 3%;
     }
     .section__pago{
         background-color: rgb(141, 141, 141);
         border: white solid ;
         border-radius: 15px;
         padding: 3%;
+        margin: 0% 3%;
+        margin-bottom: 3%;
     }
     .section__resumen{
         background-color: rgb(141, 141, 141);
         border: white solid ;
         border-radius: 15px;
         padding: 3%;
-        margin-bottom: 20%;
+        margin-bottom: 3%;
+        margin: 0% 3%;
     }
 
 
@@ -170,7 +175,6 @@ body{
         width: 100%;
         border-radius: 15px;
     }
-
     .section__nosotros{
         text-align: center;
         background-color: rgb(141, 141, 141);
@@ -181,7 +185,6 @@ body{
     }
     .video__main__nosotros{
         margin: 5%;
-        padding-bottom: 8%;
     }
 
 
@@ -268,20 +271,10 @@ body{
         background-color: #402C21;
     }
     .footer__index{
-    position: fixed;
-    bottom: 0px;
-    width: auto;
+        position: fixed;
+        bottom: 0px;
+        width: auto;
     }
-
-
-
-
-.footer__saludables{
-
-    bottom: 0px;
-    background-color: #402C21;
-    width: auto;
-}
 
 
 
