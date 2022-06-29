@@ -32,36 +32,11 @@ body{
     background-color: #402C21;
     border-bottom: solid white;
     padding: 15px;
+    width: 100%;
 }
 .grid__header__logos{
     display: grid;
     grid-template-columns: 46% 54%;
-}
-.dropdown__header{
-    position: relative;
-    width: min-content;
-}
-.contenedor__logo__medio__header{
-    grid-column: 2/3;
-}
-.dropdown__header ul{
-    position: absolute;
-    max-height: 0px;
-    overflow: hidden;
-    transition-duration: 0.7s;
-    background-color: #402C21;
-    list-style: none;
-}
-.dropdown__header ul li a{
-    text-decoration: none;
-    color: aliceblue;
-    font-size: large;
-}
-.dropdown__header:hover ul,.dropdown__header ul .show{
-    max-height: 450px;
-    padding: 0px;
-    border-bottom-right-radius: 15px;
-    
 }
 .texto__header{
     text-decoration: none;
@@ -90,6 +65,10 @@ body{
     }
     .tablero__main__index{
         font-size: larger;
+        background-color: rgba(0, 0, 0, 0.404);
+        color: white;
+        padding: 2%;
+        border-radius: 15px;
     }
 
 
@@ -267,6 +246,7 @@ body{
     }
     footer ul li a:hover{
         font-size: 120%;
+        color: white;
     }
     footer ul li{
         display: inline-block;
