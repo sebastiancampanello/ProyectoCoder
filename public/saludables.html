@@ -17,11 +17,11 @@
     <title>TuBurguer</title>
 </head>
 <body class="grid__body__index">
-    <header class="grid__header m-0">
-        <nav class="grid__header__logos">
+    <header class="body__header m-0">
+        <nav class="header__nav">
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img class="menu__logo__header" src="../assets/images/LogoMenuHeader.png" alt="">
+                    <img class="menu__logo__dropdown" src="../assets/images/LogoMenuHeader.png" alt="">
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                     <li><a class="texto__header text-dark m-3" href="../index.html">Home</a></li>
@@ -31,34 +31,29 @@
                     <li><a class="texto__header text-dark m-3" href="./saludables.html"><b>Saludables?</b></a></li>
                 </ul>
             </div>
-            <div data-aos="fade-down" class="contenedor__logo__medio__header">
+            <div data-aos="fade-down">
                 <img class="logo__medio__header" src="../assets/images/LogoMedioHeader.png" alt="">
             </div>
         </nav>
     </header>
-    <main class="grid__main__saludables mb-0 pb-5">
+    <main class="grid__main__saludables">
         <section class="main__section__saludables">
             <h1 class="main__title__saludables">Te preocupa romper la dieta?</h1>
             <p class="main__text__saludables">Relájate que nuestra casa de comidas cuenta con ingredientes de la mejor calidad, carne 100% vacuna, verduras frescas, nuestro pan de papa casero sin aditivos ni conservantes. También contamos con la opción de nuestra hamburguesa vegetariana para aquellos que no les va mucho la idea de comer carne.Nuestro menú dispone además de la posibilidad de poder elegir la variedad de hamburguesa que quieras con amplia  disponibilidad de verduras y productos frescos; y por ultimo el mejor acompañamiento que puede tener nuestras hammburguesas son papas con cascara, para mayor aporte de fibra y las podes elegir fritas o al horno.</p>
         </section>
-        <section class="ayuda__saludables pb-4">
+        <section class="ayuda__saludables">
             <h1><b>Necesitas ayuda?</b></h1>
             <p>Lo mejor que podes hacer es HABLAR con tu entorno cercano y buscar asesoramiento especializado, aca te pasamos los datos de la <b>Red de Trastornos de la Conducta Alimentaria</b> de la Ciudad de Buenos Aires:</p>
             <p>•Salud Mental Responde: 4863-8888 Lunes al viernes de 8 a 20 hs.</p>
         </section>
     </main>
-    <footer class="grid__footer__saludables mb-0">
+    <footer class="grid__footer__saludables">
         <ul class="footer__saludables fixed-bottom mb-0">
             <li>
                 <a href="./contactanos.html">Contactanos</a>
             </li>
         </ul>
     </footer>
-    <script>
-        document.querySelector(".dropdown__header").addEventListener("click",function(){
-            document.querySelector(".dropdown__header ul").classList.toggle("show");
-        })
-    </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

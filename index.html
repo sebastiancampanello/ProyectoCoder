@@ -17,11 +17,11 @@
     <title>TuBurguer</title>
 </head>
 <body class="grid__body__index container-fluid p-0">
-    <header class="grid__header m-0">
-        <nav class="grid__header__logos">
+    <header class="body__header">
+        <nav class="header__nav">
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img class="menu__logo__header" src="./assets/images/LogoMenuHeader.png" alt="">
+                    <img class="menu__logo__dropdown" src="./assets/images/LogoMenuHeader.png" alt="">
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                     <li><a class="texto__header text-dark m-3" href="./index.html"><b>Home</b></a></li>
@@ -31,17 +31,17 @@
                     <li><a class="texto__header text-dark m-3" href="./public/saludables.html">Saludables?</a></li>
                 </ul>
             </div>
-            <div data-aos="fade-down" class="contenedor__logo__medio__header">
+            <div data-aos="fade-down">
                 <img class="logo__medio__header" src="./assets/images/LogoMedioHeader.png" alt="">
             </div>
         </nav>
     </header>
     <main class="grid__main__index pb-5">
-        <article class="padre__home col-sm row m-4 mb-5 justify-content-evenly">
-            <section class="col-12 p-3 m-0 mb-5 col-sm-5">
+        <article class="padre__home row m-4 mb-5 justify-content-evenly">
+            <section class=" p-3 col-sm-4 d-flex align-items-center">
                 <img src="./assets/images/Burguers promos.jpg" alt="imagen presentacion" class="relleno__img__index img-fluid">
             </section>
-            <section class="fondo__texto__home col-12 p-3 m-0 col-sm-5">
+            <section class="fondo__texto__home p-3 col-sm-8">
                 <div class="tablero__main__index m-2 h4">Hola! Bienvenido. El dia de hoy tenemos las siguientes noticias para vos:</div>
                 <div class="tablero__texto__main__index h5">•Promo del Dia!, comprando 2 latas de la birra que mas quieras tenes un 65% de descuento en estas tremendas BURGUERS!</div>
                 <div class="tablero__texto__main__index h5">•Tenes un 25% en descuentos con la compra de 3 o mas hamburguesas!</div>
@@ -57,11 +57,6 @@
             </li>
         </ul>
     </footer>
-    <script>
-        document.querySelector(".dropdown__header").addEventListener("click",function(){
-            document.querySelector(".dropdown__header ul").classList.toggle("show");
-        })
-    </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

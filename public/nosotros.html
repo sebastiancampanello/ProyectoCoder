@@ -17,11 +17,11 @@
     <title>TuBurguer</title>
 </head>
 <body class="grid__body__index">
-    <header class="grid__header m-0">
-        <nav class="grid__header__logos">
+    <header class="body__header m-0">
+        <nav class="header__nav">
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img class="menu__logo__header" src="../assets/images/LogoMenuHeader.png" alt="">
+                    <img class="menu__logo__dropdown" src="../assets/images/LogoMenuHeader.png" alt="">
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                     <li><a class="texto__header text-dark m-3" href="../index.html">Home</a></li>
@@ -31,7 +31,7 @@
                     <li><a class="texto__header text-dark m-3" href="./saludables.html">Saludables?</a></li>
                 </ul>
             </div>
-            <div data-aos="fade-down" class="contenedor__logo__medio__header">
+            <div data-aos="fade-down">
                 <img class="logo__medio__header" src="../assets/images/LogoMedioHeader.png" alt="">
             </div>
         </nav>
@@ -53,11 +53,6 @@
             </li>
         </ul>
     </footer>
-    <script>
-        document.querySelector(".dropdown__header").addEventListener("click",function(){
-            document.querySelector(".dropdown__header ul").classList.toggle("show");
-        })
-    </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

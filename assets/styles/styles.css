@@ -28,13 +28,13 @@ body{
 
 
 
-.grid__header{
+.body__header{
     background-color: #402C21;
     border-bottom: solid white;
     padding: 15px;
     width: 100%;
 }
-.grid__header__logos{
+.header__nav{
     display: grid;
     grid-template-columns: 46% 54%;
 }
@@ -42,7 +42,7 @@ body{
     text-decoration: none;
     z-index: 112;
 }
-.menu__logo__header{
+.menu__logo__dropdown{
     height: 25px;
 }
 .logo__medio__header{
@@ -98,6 +98,7 @@ body{
     }
     .titulo__opciones__menu{
         grid-column: 1/3;
+        font-size: x-large;
     }
     .foto__menu{
         height: 150px;
@@ -120,6 +121,16 @@ body{
         text-align: center;
         height: auto;
         border: solid white;
+    }
+    .pie__main__menu{
+        background-color: rgb(122, 122, 122, 0.959);
+        border-radius: 15px;
+        border: solid white;
+        margin: 3%;
+        text-align: center;
+        padding: 3%;
+        grid-column: 1/3;
+        font-size: larger;
     }
 
 
@@ -231,6 +242,7 @@ body{
     border: solid white;
     margin: 5%;
     padding: 3%;
+    margin-bottom: 25%;
 }
 
 
@@ -274,7 +286,7 @@ body{
 
 
 
-@media (max-width:630px){
+@media (max-width:576px){
     .padre__home{
         display: grid;
         grid-template-columns: auto;
@@ -317,4 +329,5 @@ body{
     .mapa__main__contacto{
         grid-column: 1/3;
     }
+
 }
