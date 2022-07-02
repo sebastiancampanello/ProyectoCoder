@@ -1,0 +1,74 @@
+@import "_variables";
+@import "_header";
+@import "_footer";
+@import "_index";
+@import "_menu.scss";
+@import "_carrito.scss";
+@import "_nosotros.scss";
+@import "_saludables.scss";
+@import "_contactanos.scss";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+}
+
+body{
+    background: 
+    linear-gradient(135deg, rgba(0, 0, 0, 0.795) 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, rgba(0, 0, 0, 0.651) 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, black 25%, transparent 25%),
+    linear-gradient(45deg, rgba(0, 0, 0, 0.884) 39%, transparent 25%);	
+    background-size: 2em 2em;
+    background-color: #000000;
+}
+.grid__body__index{
+    background-color: rgb(70, 70, 70);
+}
+
+@media (max-width:576px){
+    .padre__home{
+        display: grid;
+        grid-template-columns: auto;
+        margin-bottom: 20%;
+    }
+    .imagen__home{
+        grid-column:1/3;
+    }
+    .relleno__menu{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .title__main__menu{
+        grid-column: 1/3;
+        width: auto;
+    }
+    .opciones__menu{
+        grid-column: 1/3;
+    }
+    .grid__main__carrito{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 15px;
+    }
+    .grid__main__contacto{
+        grid-template-columns: 100%;
+    }
+    .titulo__grid__contacto{
+        grid-column: 1/3;
+    }
+    .sumate__contacto{
+        grid-column: 1/3;
+    }
+    .table__horarios{
+        grid-column: 1/3;
+    }
+    .contacto__contacto{
+        grid-column: 1/3;
+    }
+    .mapa__main__contacto{
+        grid-column: 1/3;
+    }
+}

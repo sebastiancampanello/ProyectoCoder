@@ -1,0 +1,17 @@
+
+.section__nosotros{
+    text-align: center;
+    background-color: $bgmain;
+    border-radius: 15px;
+    margin: 5%;
+    border: solid white;
+    margin-bottom: 80px;
+    .video__main__nosotros{
+        margin: 5%;
+    }
+    .nosotros__video{
+        width: 100%;
+        border-radius: 15px;
+    }
+}
+

@@ -1,0 +1,32 @@
+.body__header{
+    background-color: $bgcolor;
+    border-bottom: solid white;
+    padding: 15px;
+    width: 100%;
+    .header__nav{
+        display: grid;
+        grid-template-columns: 46% 54%;
+        div{
+            button{
+                .menu__logo__dropdown{
+                    height: 25px;
+                }
+            }
+            ul{
+                li{
+                    .texto__header{
+                        text-decoration: none;
+                        z-index: 112;
+                    }
+                }
+            }
+        }
+        div{
+            .logo__medio__header{
+                position: absolute;
+                height: 60px;
+                top: -15px;
+            }
+        }
+    }
+}  
