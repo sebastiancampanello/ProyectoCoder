@@ -54,7 +54,7 @@ body{
         padding: 15px;
     }
     .grid__main__contacto{
-        grid-template-columns: 100%;
+        display: grid;
     }
     .titulo__grid__contacto{
         grid-column: 1/3;

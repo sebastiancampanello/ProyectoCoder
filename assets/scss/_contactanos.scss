@@ -3,13 +3,13 @@
     grid-template-columns: 50% 50%;
     background-color: $bgmain;
     border-radius: 15px;
-    border: solid white;
+    border: map-get($map: $mapBorderSombras, $key: bordColorW);
     margin: 5%;
     .titulo__grid__contacto{
         grid-column: 1/3;
     }
     .sumate__contacto{
-        border: solid black;
+        border: map-get($map: $mapBorderSombras, $key: bordColorB);
         margin: 3%;
         padding: 5px;
         border-radius: 15px;
@@ -21,14 +21,14 @@
         }
     }
     .table__horarios{
-        border: solid black;
+        border: map-get($map: $mapBorderSombras, $key: bordColorB);
         margin: 3%;
         padding: 5px;
         border-radius: 15px;
         grid-column: 2/3;
     }
     .contacto__contacto{
-        border: solid black;
+        border: map-get($map: $mapBorderSombras, $key: bordColorB);
         margin: 3%;
         padding: 5px;
         border-radius: 15px;

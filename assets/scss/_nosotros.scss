@@ -2,16 +2,16 @@
 .section__nosotros{
     text-align: center;
     background-color: $bgmain;
-    border-radius: 15px;
+    border-radius: map-get($map: $mapBorderSombras, $key: bordCurvo);
     margin: 5%;
-    border: solid white;
+    border: smap-get($map: $mapBorderSombras, $key: bordColorW);
     margin-bottom: 80px;
     .video__main__nosotros{
         margin: 5%;
     }
     .nosotros__video{
         width: 100%;
-        border-radius: 15px;
+        border-radius: map-get($map: $mapBorderSombras, $key: bordCurvo);
     }
 }
 

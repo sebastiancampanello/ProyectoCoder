@@ -1,5 +1,5 @@
     footer ul{
-        border-top: solid white;
+        border-top: map-get($map: $mapBorderSombras, $key: bordColorW);
         background-color: $bgcolor;
         width: auto;
         li{

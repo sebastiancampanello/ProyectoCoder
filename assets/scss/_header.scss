@@ -1,6 +1,6 @@
 .body__header{
     background-color: $bgcolor;
-    border-bottom: solid white;
+    border-bottom: map-get($map: $mapBorderSombras, $key: bordColorW);
     padding: 15px;
     width: 100%;
     .header__nav{
