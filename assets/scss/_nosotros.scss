@@ -4,7 +4,7 @@
     background-color: $bgmain;
     border-radius: map-get($map: $mapBorderSombras, $key: bordCurvo);
     margin: 5%;
-    border: smap-get($map: $mapBorderSombras, $key: bordColorW);
+    border: map-get($map: $mapBorderSombras, $key: bordColorW);
     margin-bottom: 80px;
     .video__main__nosotros{
         margin: 5%;
