@@ -49,14 +49,24 @@ footer ul li a:hover {
 }
 .padre__home section .relleno__img__index {
   width: 100%;
+  height: fit-content;
+  border-radius: 15px;
+}
+.padre__home section .relleno__img__index__dos {
+  width: 100%;
+  height: fit-content;
+  margin-top: 1rem;
   border-radius: 15px;
 }
 .padre__home section .tablero__main__index {
-  font-size: larger;
+  font-size: X-large;
   background-color: rgba(0, 0, 0, 0.404);
   color: white;
   padding: 2%;
   border-radius: 15px;
+}
+.padre__home section .tablero__texto__main__index {
+  font-size: large;
 }
 
 .relleno__menu {
@@ -155,6 +165,12 @@ footer ul li a:hover {
   margin: 5%;
   padding: 3%;
   margin-bottom: 25%;
+}
+.grid__main__saludables .ayuda__saludables {
+  font-size: larger;
+}
+.grid__main__saludables .main__section__saludables {
+  font-size: larger;
 }
 
 .grid__main__contacto {

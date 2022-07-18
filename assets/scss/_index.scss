@@ -5,16 +5,26 @@
     section{
         .relleno__img__index{
             width: 100%;
+            height: fit-content;
+            border-radius: map-get($map: $mapBorderSombras, $key: bordCurvo);    
+        }
+        .relleno__img__index__dos{
+            width: 100%;
+            height: fit-content;
+            margin-top: 1rem;
             border-radius: map-get($map: $mapBorderSombras, $key: bordCurvo);    
         }
     }
     section{
         .tablero__main__index{
-            font-size: larger;
+            font-size: X-large;
             background-color: rgba(0, 0, 0, 0.404);
             color: white;
             padding: 2%;
             border-radius: 15px;
+        }
+        .tablero__texto__main__index{
+            font-size: large;
         }
     }
 }
